@@ -1,0 +1,27 @@
+<center><!DOCTYPE html>
+<html>
+<head>
+  <title>Drawing App</title>
+  <link rel="stylesheet" type="text/css" href="d.css">
+</head>
+<body>
+  <div id="controls">
+    <h1>Drawing App</h1>
+    <button id="undoButton">Undo</button>
+    <button id="redoButton">Redo</button>
+    <button id="resetButton">Reset</button>
+    <input type="color" id="colorPicker" value="#000000">
+    <label for="eraseCheckbox">Erase</label>
+    <input type="checkbox" id="eraseCheckbox">
+    <label for="brushSize">Brush Size:</label>
+    <input type="range" id="brushSize" min="1" max="20" value="5">
+    <label for="eraserSize">Eraser Size:</label>
+    <input type="range" id="eraserSize" min="1" max="20" value="5">
+  </div>
+  <canvas id="canvas" width = "400" height = "400"></canvas>
+
+  <script src="d.js"></script>
+</body>
+</html></center>
+
+ 
